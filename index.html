@@ -29,8 +29,15 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!-- Links custom CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/main.css"
+    />
+    <!-- Links JS File -->
+    <script src="assets/js/main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -41,13 +48,33 @@
         the players ability to memorize patterns.
       </p>
       <!-- These divs will store the images -->
-      <div class="row mt-3">
-        <div class="col"></div>
-        <div class="col"></div>
-      </div>
-      <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
+      <div class="img-container">
+        <div class="row">
+          <div class="col">
+            <img
+              id="green"
+              src="assets/images/green.jpg"
+              alt="green"
+              srcset=""
+            />
+          </div>
+          <div class="col">
+            <img id="red" src="assets/images/red.jpg" alt="red" srcset="" />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <img
+              id="yellow"
+              src="assets/images/yellow.jpg"
+              alt="yellow"
+              srcset=""
+            />
+          </div>
+          <div class="col">
+            <img id="blue" src="assets/images/blue.jpg" alt="blue" srcset="" />
+          </div>
+        </div>
       </div>
     </div>
   </body>

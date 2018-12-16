@@ -1,0 +1,10 @@
+.img-container {
+  width: 50%;
+}
+
+#blue,
+#green,
+#red,
+#yellow {
+  opacity: 0.4;
+}
